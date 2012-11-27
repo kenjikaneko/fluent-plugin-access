@@ -6,11 +6,11 @@ require 'fluent-plugin-access/version'
 Gem::Specification.new do |gem|
   gem.name          = "fluent-plugin-access"
   gem.version       = Fluent::Plugin::Access::VERSION
-  gem.authors       = ["TODO: Write your name"]
-  gem.email         = ["TODO: Write your email address"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.authors       = ["kkaneko"]
+  gem.email         = ["kkaneko@iacc.co.jp"]
+  gem.description   = %q{filtreing access log}
+  gem.summary       = %q{filtreing access log}
+  gem.homepage      = "https://github.com/kenjikaneko/fluent-plugin-access"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
